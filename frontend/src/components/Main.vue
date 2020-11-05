@@ -1,9 +1,6 @@
 <template>
   <v-container>
     <Channels />
-    <span>main</span>
-    <Popular/>
-    <Test />
   </v-container>
 </template>
 
@@ -16,8 +13,6 @@ export default {
   name: 'Main',
   components: {
     Channels,
-    Popular,
-    Test,
   },
   data() {
     return {

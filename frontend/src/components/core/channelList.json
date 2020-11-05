@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "2PM",
+    "groupname": "2PM",
+    "img": "/img/2PM/2PM.jpg"
+  },
+  {
+    "id": 2,
+    "title": "APINK",
+    "groupname": "APINK",
+    "img": "/img/APINK/APINK.jpg"
+  },
+  {
+    "id": 3,
+    "title": "APRIL",
+    "groupname": "APRIL",
+    "img": "/img/APRIL/APRIL.jpg"
+  },
+  {
+    "id": 4,
+    "title": "BLACKPINK",
+    "groupname": "BLACKPINK",
+    "img": "/img/BLACKPINK/BLACKPINK.jpg"
+  },
+  {
+    "id": 5,
+    "title": "BTS",
+    "groupname": "BTS",
+    "img": "/img/BTS/BTS.jpg"
+  },
+  {
+    "id": 6,
+    "title": "EXO",
+    "groupname": "EXO",
+    "img": "/img/EXO/EXO.jpg"
+  },
+  {
+    "id": 7,
+    "title": "GIRL'S GENERATION",
+    "groupname": "GIRLS_GENERATION",
+    "img": "/img/GIRLS_GENERATION/GIRLS_GENERATION.jpg"
+  },
+  {
+    "id": 8,
+    "title": "GIRLFRIEND",
+    "groupname": "GIRLFRIEND",
+    "img": "/img/GIRLFRIEND/GIRLFRIEND.jpg"
+  },
+  {
+    "id": 9,
+    "title": "IU",
+    "groupname": "IU",
+    "img": "/img/IU/IU.jpg"
+  },
+  {
+    "id": 10,
+    "title": "MONSTA X",
+    "groupname": "MONSTA_X",
+    "img": "/img/MONSTA_X/MONSTA_X.jpg"
+  },
+  {
+    "id": 11,
+    "title": "NCT",
+    "groupname": "NCT",
+    "img": "/img/NCT/NCT.jpg"
+  },
+  {
+    "id": 12,
+    "title": "OHMYGIRL",
+    "groupname": "OHMYGIRL",
+    "img": "/img/OHMYGIRL/OHMYGIRL.jpg"
+  },
+  {
+    "id": 13,
+    "title": "RED VELVET",
+    "groupname": "RED_VELVET",
+    "img": "/img/RED_VELVET/RED_VELVET.jpg"
+  },
+  {
+    "id": 14,
+    "title": "SEVENTEEN",
+    "groupname": "SEVENTEEN",
+    "img": "/img/SEVENTEEN/SEVENTEEN.jpg"
+  },
+  {
+    "id": 15,
+    "title": "SUPER JUNIOR",
+    "groupname": "SUPER_JUNIOR",
+    "img": "/img/SUPER_JUNIOR/SUPER_JUNIOR.jpg"
+  },
+  {
+    "id": 16,
+    "title": "T-ARA",
+    "groupname": "T-ARA",
+    "img": "/img/T-ARA/T-ARA.jpg"
+  },
+  {
+    "id": 17,
+    "title": "TWICE",
+    "groupname": "TWICE",
+    "img": "/img/TWICE/TWICE.jpg"
+  },
+  {
+    "id": 18,
+    "title": "TXT",
+    "groupname": "TXT",
+    "img": "/img/TXT/TXT.jpg"
+  },
+  {
+    "id": 19,
+    "title": "WJSN",
+    "groupname": "WJSN",
+    "img": "/img/WJSN/WJSN.jpg"
+  }
+]
