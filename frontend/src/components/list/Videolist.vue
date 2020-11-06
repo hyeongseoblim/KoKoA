@@ -165,6 +165,9 @@ export default {
 };
 </script>
 <style>
+*{
+  font-family: 'Bangers', cursive;
+}
 .slick-prev:before {
   color: red !important;
   background-color: #eee;

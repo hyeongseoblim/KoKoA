@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h2>Choose Your Star(가제)</h2>
+    <div style="color:#fff; font-size:5vw; display: flex; justify-content: center;"
+  >Choose Your Artist</div>
     <div class="example-3d">
       <swiper class="swiper" :options="swiperOption">
         <swiper-slide
@@ -16,9 +17,10 @@
     <v-flex d-flex>
       <v-layout wrap>
         <v-flex xs12 sm6 md4 lg3 xl2 v-for="(data, index) in items" :key="index">
-          <v-card class="ma-3 " @click="enter(data.id)">
-            <v-img class="scale" aspect-ratio="1" :src="require(`@/assets` + data.img)" />
-            <v-card-title class="justify-center">{{ data.title }}</v-card-title>
+          <v-card class="scale ma-3" @click="enter(data.id)">
+            <v-img aspect-ratio="1" :src="require(`@/assets` + data.img)" />
+            <v-card-title class="temp justify-center">
+              <h4>{{ data.title }}</h4></v-card-title>
           </v-card>
         </v-flex>
       </v-layout>
@@ -74,6 +76,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+* {
+  // font-family: 'Signika', sans-serif;
+  font-family: 'Patua One', cursive;
+}
 .scale {
   transform: scale(1);
   /* -webkit-transform: scale(1);
@@ -81,6 +87,11 @@ export default {
   -ms-transform: scale(1);
   -o-transform: scale(1); */
   transition: all 0.3s ease-in-out;
+}
+.temp{
+  background-color: rgba(0, 0, 0, 0.89);
+  padding: 1;
+  color: white;
 }
 .scale:hover {
   transform: scale(1.1);
@@ -96,7 +107,10 @@ export default {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
+.title {
+  font-size: 30px;
+  font-family: 'Patua One', cursive;
+}
 .swiper {
   height: 100%;
   width: 100%;

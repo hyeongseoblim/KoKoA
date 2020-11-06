@@ -2,11 +2,11 @@
   <v-app id="create">
     <!-- KOKOA LOGO -->
     <div id="logo" @click="goHome">
-      KOKOA
-      <v-btn v-if="!isLogin" @click="getAuth()">
+      <img src="@/assets/kokoa.png" alt="KOKOA" style="width: 30vh;">
+      <!-- <v-btn v-if="!isLogin" @click="getAuth()">
         <img src="@/assets/google.png" alt="구글로그인버튼" style="width:30px" />
         login
-      </v-btn>
+      </v-btn> -->
     </div>
     <!-- circular menu -->
     <quick-menu
@@ -38,15 +38,15 @@ export default {
       isLogin: false,
       drawer: false,
       // circular menu settings
-      count: 4,
+      count: 3,
       icons: ['fas fa-book', 'fas fa-history', 'fas fa-book-reader', 'fas fa-sign-out-alt'],
       list: [
         { isLink: true, url: '/note' },
         { isLink: true, url: '/review' },
-        { isLink: true, url: '/foo' },
+        // { isLink: true, url: '/foo' },
         { isLink: false },
       ],
-      backgroundColor: 'rgb(180, 91, 180)',
+      backgroundColor: 'rgb(255, 127, 0)',
       color: '#ffffff',
       position: 'top-right',
       isOpenNewTab: false,
@@ -77,6 +77,9 @@ export default {
 };
 </script>
 <style>
+#create{
+  background-color: rgba(0, 0, 0, 0.89);
+}
 .circular {
   position: fixed;
   z-index: 999;
@@ -85,6 +88,6 @@ export default {
 #logo {
   position: fixed;
   z-index: 999;
-  color: rgb(180, 91, 180);
+  color: rgb(255, 127, 0);
 }
 </style>
